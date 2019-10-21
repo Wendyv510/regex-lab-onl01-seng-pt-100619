@@ -1,4 +1,7 @@
 def starts_with_a_vowel?(word)
+  word = ["afoot", "excellent", "incredible", "absolute", "unrealy", "inconcievable", "octopus", "chandoo", "crenel", "crooked", "flimsy", "folksy", "dog", "hermit", "makeshift", "Palazzi", "sixfold", "Truth"]
+  
+  names.scan (\start_with/[aeiou]/)
 
 end
 

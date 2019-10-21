@@ -1,9 +1,11 @@
 def starts_with_a_vowel?(word)
   word = ["afoot", "excellent", "incredible", "absolute", "unrealy", "inconcievable", "octopus", "chandoo", "crenel", "crooked", "flimsy", "folksy", "dog", "hermit", "makeshift", "Palazzi", "sixfold", "Truth"]
   
-  names.scan (\start_with/[aeiou]/)
+  word.scan (\start_with/[aeiou]/)
 
 end
+
+starts_with_a_vowel?()
 
 def words_starting_with_un_and_ending_with_ing(text)
    text = "unassuming, ambiguous, understanding, pomp, circumstance, uninteresting, uncompromising, grouchy, corollary"

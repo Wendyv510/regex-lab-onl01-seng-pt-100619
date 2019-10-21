@@ -22,6 +22,7 @@ end
 words_five_letter_long("extreme, briny, crepe, parking, snaps, grouping, snafu, round, dog, be, fork, spoon")
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
+  text.scan (/^\i.capitalized)(/$\[.!?]])
 
 end
 
